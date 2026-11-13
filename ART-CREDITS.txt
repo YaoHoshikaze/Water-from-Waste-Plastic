@@ -1,0 +1,7 @@
+Artwork credits
+
+Original item art was supplied for this project by its author. Some item sprites were created or cleaned with AI assistance. The Workshop preview is a composition of the mod's existing item sprites. The handwritten note references vanilla game art; the original game texture is not redistributed here.
+
+素材说明
+
+物品原图由作者提供；部分物品贴图经过AI辅助生成或清理。工坊预览图使用本模组现有物品贴图组合制作。手写便签通过资源引用复用原版贴图，未在此重新分发游戏原图。

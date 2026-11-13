@@ -1,0 +1,59 @@
+Release candidate: 0.7.1 / 废弃塑料制水 / Water from Waste Plastic
+Status: prepared locally, NOT uploaded to Steam; publishedfileid=0; private visibility preset.
+Credits: 八尾星風 and 拉挖稀 are preserved verbatim in Chinese and English.
+User-supplied Chinese and English description retained; video link uses its canonical URL.
+English UI layout and Workshop upload/subscription have not been tested in game.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ChemistryPrototype -> C:\Users\12102\Documents\Codex\2026-11-12\referenced-chatgpt-conversation-this-is-an\outputs\ChemistryPrototype\src\bin\Release\netstandard2.1\ChemistryPrototype.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+PASS: 2149 assertions (chemistry, bottle recycling, solid handling, story scheduling and Chinese/English language routing).
+Package ready: C:\Users\12102\Documents\Codex\2026-11-12\referenced-chatgpt-conversation-this-is-an\outputs\ChemistryPrototype\package\ChemistryPrototype
+
+PASS locale: zh-Hans -> Chinese
+PASS locale: zh-Hant -> Chinese
+PASS locale: zh-CN -> Chinese
+PASS locale: zh-TW -> Chinese
+PASS locale: en -> English
+PASS locale: fr -> English
+PASS locale: ja -> English
+PASS locale: ru -> English
+PASS: 8 actual locale routes; 118 English resources checked; item labels, scanner components/report, native note data and chemist rumor verified. No game UI was opened.
+PASS: release assembly excludes runtime self-tests and their automatic trigger.
+
+Game assembly SHA256: 725CB999D019DFF1FF31BED353C7F9BB8D81A7605A15DE1F80F5A3A6CF7B1D05
+Mod DLL SHA256: C5483AD88B9515ED302F33F7E548ECDBFD25A77BA49D1A828F900DEBD699E562
+Scan parameters: dllPaths=, allowedReferences=, folderPath=, localFolder=False
+Capabilities: 
+HardFlags: 
+Pending: 
+Error: 
+MethodsScanned: 218
+Refused: False
+PASS release: no debug-button registration, keyboard polling, F8/F9 text, runtime self-tests or automatic test flag.
+
+BOUND: RetiredChemistEquipment -> StoreClientListSpec.CreateRetiredChemist
+BOUND: CommonChemicalSupplyExtras -> MaterialDirectory+<>c__DisplayClass7_1.<CommonChemicalSupplies>b__3
+BOUND: ChineseScannerLabels -> ChemScannerUIManager.RefreshUI
+BOUND: ChineseWaterScanner -> WaterScannerUIManager.RefreshUI
+BOUND: DryPetHeating -> MachineHeatingPlate.HeatingPlate
+BOUND: ChargedBeakerTransfer -> WaterHelper.TransferLiquid
+BOUND: EmptySaltTracking -> WaterHelper.EmptyContainer
+BOUND: BeakerTargetAvailability -> GameItem.CanTarget
+BOUND: PlasticCapacityRow -> WaterHelper.CreateWaterContainerTooltip
+BOUND: PlasticScannerReport -> ChemScannerUIManager.RefreshUI
+BOUND: PlasticNoteReputationTrigger -> StoreReputation.UpdateReputation
+BOUND: PlasticRumorDialogue -> StoreClient.StartMainDialogue
+BOUND: ResponsiveDragging -> ItemMouseDragHandler.OnEventUpdate
+BOUND: WaterScannerAvailability -> AmenitiesItemDirectory.AquaScan
+BOUND: WaterTestStripAvailability -> AmenitiesItemDirectory.WaterTestStrip
+BOUND: ChineseWaterTestStrip -> WaterStripUIManager.Open
+PASS: 16 Harmony targets and their injected field types resolve against the installed game; both acquisition event signatures verified. No game actions executed.
+
+PASS: Workshop root, manifest, single mod DLL, runtime assets, clean content and 1024x1024 preview (51068 bytes).
+
